@@ -55,6 +55,15 @@ h1 {
   background-color: #AFB1A1;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
+
 /* Aikakausia */
 div > .times {
   margin-top: 20px;
