@@ -1,0 +1,103 @@
+body {
+  background-color: #E5D9CD;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #6C7972;
+}
+
+.nav-link {
+  color: #E5D9CD;
+}
+
+/* Karuselli */
+.carousel-item img {
+  margin: auto;
+  width: 640px;
+  height: 460px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: #6C7972;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+
+#history-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Painike */
+.btn-primary {
+  --bs-btn-bg: #AFB1A1;
+  --bs-btn-border-color: black;
+  --bs-btn-color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #6C7972;
+}
+
+.accordion-button {
+  background-color: #AFB1A1;
+}
+
+/* Aikakausia */
+div > .times {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #6C7972;
+}
+
+[class~=stone] {
+  background-color: #AFB1A1;
+}
+
+.bronze {
+  background-color: #6C7972;
+}
+
+.bronze + .iron {
+  background-color: #AFB1A1;
+}
+
+h3 ~ p {
+  border: 2px solid #6C7972;
+}
+
+p {
+  padding: 5px;
+}
+
+/* Kuvia */
+img {
+  border: 2px solid #6C7972;
+}
+
+.accordion-body {
+  background-color: #E5D9CD;
+}
+
+.accordion-button {
+  background-color: #AFB1A1;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: #AFB1A1;
+}
+
+/*# sourceMappingURL=styles_processed.css.map */
